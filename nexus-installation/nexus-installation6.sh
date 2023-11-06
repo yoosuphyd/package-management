@@ -25,6 +25,8 @@ sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
 
 sudo wget http://download.sonatype.com/nexus/3/nexus-3.15.2-01-unix.tar.gz 
 
+sudo wget https://download.sonatype.com/nexus/3/nexus-3.47.1-01-unix.tar.gz
+
 sudo tar -zxvf nexus-3.15.2-01-unix.tar.gz
 mv /opt/nexus-3.15.2-01 /opt/nexus
 
